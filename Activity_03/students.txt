@@ -1,0 +1,18 @@
+
+Last Name: Serrano
+First Name: Rona Mae
+Age: 21
+Contact Number: 09686839619
+Course: BSIT
+
+Last Name: Serrano
+First Name: Rona Mae 
+Age: 21
+Contact Number: 092726638292
+Course: BSIT-BA
+
+Last Name: Serrano
+First Name: Rona Mae
+Age: 21
+Contact Number: 09686392917
+Course: BSIT-BA

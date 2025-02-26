@@ -1,16 +1,23 @@
-# Accept input for the last name, first name, age, contact number, and course
+# Accept input for student details
 last_name = input("Enter Last name: ")
 first_name = input("Enter First name: ")
 age = input("Enter Age: ")
 contact_number = input("Enter Contact number: ")
 course = input("Enter Course: ")
 
-# Create a string containing the collected information in a formatted way
-student_info = f"\nLast Name: {last_name}\nFirst Name: {first_name}\nAge: {age}\nContact Number: {contact_number}\nCourse: {course}\n"
+# Create a formatted string with student details
+student_info = f"""
+Last Name: {last_name}
+First Name: {first_name}
+Age: {age}
+Contact Number: {contact_number}
+Course: {course}
+"""
 
-# Open a file named students.txt in append mode and write the formatted info to the file
-with open("students.txt", "a") as file:
-    file.write(student_info)
+# Open the file in append mode and write student info
+f = open("Activity_03/students.txt", "a")  # Using explicit file handling
+f.write(student_info)
+f.close()  # Ensure the file is properly closed
 
-# Display a confirmation message indicating that the information has been saved
+# Confirmation message
 print("\nStudent information has been saved to 'students.txt'.")
